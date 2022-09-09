@@ -1,13 +1,13 @@
-#include <stdio.h>
+nclude <stdio.h>
 #include <stdlib.h>
+
 /**
- * main -Entry point
- *
- * Description:prints and that piece
- * Return: 1 if sucessful
- */
+ *  * main - Entry point
+ *   * Return: Always 1 (Success)
+ *    */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+		write(STDOUT_FILENO, "and that piece of art is useful
+							\" - Dora Korpar, 2015-10-19\n", 59);
+			return (1);
 }
