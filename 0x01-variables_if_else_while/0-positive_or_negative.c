@@ -3,8 +3,9 @@
 #include "stdio.h"
 
 /**
- * main -> assign a random number to the variable n each time it is executed and prints out based a codition
- * return : always 0
+ * main - Prints if number is positive, zero or negative
+ *
+ * return : always (Success)
  */
 int main(void)
 {
@@ -12,13 +13,19 @@ int main(void)
 
 	strand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
-		printf(":wq%d is positive\n", n);
+	{
+		printf("%d is positive\n", n);
+	}
 	if (n == 0)
+	{
 		printf("%d is zero\n", n);
+	}
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
