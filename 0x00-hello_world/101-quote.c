@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - entry point
+ * main -Entry point
  *
- * Description: Prints and and that piece of art is useful
+ * Description:prints and that piece
  * Return: 1 if sucessful
  */
 int main(void)
